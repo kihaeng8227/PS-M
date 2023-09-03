@@ -1,0 +1,136 @@
+@charset "utf-8";
+*{margin: 0; padding: 0; box-sizing: border-box; }
+hr { display: none; }
+a { text-decoration: none;}
+ul li { list-style: none; }
+.hidden{ display: none; }
+
+
+
+
+/* main 2 */
+#main2Wrap { padding: 100px 0; margin: 0 auto; width: 100%; }
+
+#main2Wrap > #main2 { overflow: hidden; max-width: 1350px; margin: 0 auto; }
+
+#main2Wrap > #main2 > h2 { font-weight:bolder; letter-spacing: -2.4px; margin-bottom: 20px; font-size: 2.3rem; line-height: 100px; height: 115px; text-align: center; }
+#main2Wrap > #main2 > h2:before { content:""; width: 50px; height: 5px; background:red; position:absolute; left: 50%; margin-left:-25px; }
+
+#main2Wrap > #main2 > #section1 { padding: 0 50px; display: flex; width: 400%; }
+#main2Wrap > #main2 > #section1 > div { margin-right: 80px; }
+#main2Wrap > #main2 > #section1 > div > a {}
+#main2Wrap > #main2 > #section1 > div > a > img { width: 100%; }
+
+#main2Wrap > #main2 > #section2{ position: relative; margin: 0 auto; width: 370px; margin-top: 35px; overflow: hidden; }
+#main2Wrap > #main2 > #section2 > #sectionList { display:flex; width: 400%; }
+#main2Wrap > #main2 > #section2 > #sectionList > button { border:0; outline:0; width:13px; height: 20px; } 
+#firBtn { position: absolute; left: 10px; background: url(../img/main/right.svg) no-repeat center/ cover; }
+#lasBtn { position: absolute; left: 350px; background: url(../img/main/left.svg) no-repeat center/ cover; }
+
+#main2Wrap > #main2 > #section2 > #sectionList > div { font-size : 20px; width: 100%; text-align: center; letter-spacing: -2px; font-weight: 600; color:#000; }
+
+
+
+
+
+@media all and ( min-width: 768px){
+
+/* Main 1 */
+#main1Wrap { width: 100%; margin: 100px 0; }
+
+#main1Wrap > #main1 { margin: 0 auto; max-width: 1310px; padding: 0 30px; }
+
+#main1Wrap > #main1 > h2 { font-weight:bolder; font-size: 2.3rem; line-height: 100px; height: 115px; text-align: center; }
+#main1Wrap > #main1 > h2:before { content:""; width: 50px; height: 5px; background:red; position:absolute; left: 50%; margin-left:-25px; }
+
+#main1Wrap > #main1 > p { margin-bottom: 45px; letter-spacing: -2px; font-size: 22px; height: 50px; text-align: center; }
+#main1Wrap > #main1 > p > span { font-weight: bolder; font-size: 24px; }
+#main1Wrap > #main1 > ul{ margin: 0 auto; width: 100%; display: flex; }
+
+#main1Wrap > #main1 > ul > li{ height: 300px; width: 100%; margin-right: 20px; }
+#main1Wrap > #main1 > ul > li a{ position: relative; width: 25%; }
+#main1Wrap > #main1 > ul > li a h2{ margin-bottom: 20px; font-size: 21px; font-weight: bold; text-align: center; color: #000; }
+#main1Wrap > #main1 > ul > li a img{ width: 100%; }
+
+#main1Wrap > #main1 > ul > li a::before { box-shadow: 0 10px 30px rgba(0 0 0/50%); opacity: 0; background: url(../img/main/mcon01_arrow.png) no-repeat center; background-color:rgb(209, 30, 30); position:absolute; bottom: -10px; right: 20px; width:65px; height: 65px; content:""; border-radius: 100%; }
+#main1Wrap > #main1 > ul > li a:hover::before { opacity: 1; }
+#mainBtn button { display: none;}
+
+/* main 3 */
+
+#main3Wrap { padding-top: 100px; width: 100%; }
+
+#main3Wrap > #main3 { display: flex; margin: 0 auto; padding:0 30px; max-width: 1310px; }
+#main3Wrap > #main3 > h3 { letter-spacing: -1.3px; width:350px; font-weight: bold; height: 100px; line-height: 50px; margin-right: 50px; font-size: 25px; line-height: 50px; white-space: nowrap; }
+
+#main3Wrap > #main3 > #mainList { display: flex; width: 900px; }
+#main3Wrap > #main3 > #mainList > li { position:relative; margin: 0 auto; width: 25%; }
+#main3Wrap > #main3 > #mainList > .mainList1:before {content:""; width: 42px; height: 45px; ; position:absolute; top: -10px; left: -70px; background: url(../img/main/mcon03_ico03.png)no-repeat;}
+#main3Wrap > #main3 > #mainList > .mainList2:before {content:""; width: 50px; height: 43px; ; position:absolute; top: -10px; left: -70px; background: url(../img/main/mcon03_ico01.png)no-repeat;}
+#main3Wrap > #main3 > #mainList > .mainList3:before {content:""; width: 48px; height: 48px; ; position:absolute; top: -10px; left: -70px; background: url(../img/main/mcon03_ico02.png)no-repeat;}
+#main3Wrap > #main3 > #mainList > li > h3 { font-weight: bolder; margin-bottom: 15px; letter-spacing: -1px; }
+#main3Wrap > #main3 > #mainList > li > p { font-size: 0.9rem; line-height: 25px; letter-spacing: 0px; }
+#main3Wrap > #main3 > #mainList > li > a { letter-spacing: -1.2px; margin-top: 17px; border-radius: 45px; line-height: 40px; color: gray; padding: 0 25px; display:block; width: 130px; height: 40px; font-size: 0.8rem;  line-height: 40px; border: 1px solid gray; }
+#main3Wrap > #main3 > #mainList > li > a:nth-child(4) { margin-top: 9px; }
+#main3Wrap > #main3 > #mainList > li > .mainbtn { background: url(../img/main/mcon03_arrow.png)no-repeat right 20px center;}
+
+
+}
+
+@media all and ( max-width: 767px){
+    /* Main 1 */
+  #main1Wrap { max-width:767px; height: 120vh;  }
+
+  #main1Wrap > #main1 { margin: 0 auto; width:100%;}
+
+  #main1Wrap > #main1 > h2 { font-weight:bolder; font-size: 6.5vw; line-height: 100px; height: 115px; text-align: center; }
+  #main1Wrap > #main1 > h2:before { content:""; width: 50px; height: 5px; background:red; position:absolute; left: 50%; margin-left:-25px; }
+
+  #main1Wrap > #main1 > p { margin-bottom: 45px; letter-spacing: -2px; font-size: 21px; height: 50px; text-align: center; }
+  #main1Wrap > #main1 > p > span { font-weight: bolder; font-size: 24px; }
+
+  #main1Wrap > #main1 > ul{ margin-left:10vw; width: 362%; display: flex; }
+  #main1Wrap > #main1 > ul > li{ height: 79vw; width:22%; margin-right: 10vw; }
+  #main1Wrap > #main1 > ul > li a{ position: relative; width: 25%; }
+  #main1Wrap > #main1 > ul > li a h2{ margin-bottom: 20px; font-size: 4.5vw; letter-spacing: -0.7vw; font-weight: bolder; text-align: center; color: #000; }
+  #main1Wrap > #main1 > ul > li a img{ width: 100%; }
+
+  #main1Wrap > #main1 > ul > li a::before { background: url(../img/main/mcon01_arrow.png) no-repeat center right 5vw; background-color:rgb(209, 30, 30); color: #fff; position:absolute; bottom: 5vw;
+                                            right: 4vw; height: 8vw; width: 22vw ; font-size:3.5vw; content:"바로가기"; line-height: 8vw; border-radius: 20vw; padding: 0 0 0 5vw; }
+
+  #mainBtn {  display:flex; margin: 0 auto; width: 20% ; margin-top: 8vw; }
+  #mainBtn button { display: block; margin: 0 auto; background : rgba(0,0,0 ,0.2); width: 15px; height: 15px; border-radius: 100%; border:none; }
+
+
+
+  /* main2 */
+  #firBtn { position: absolute; left: 50px; background: url(../img/main/right.svg) no-repeat center/ cover; }
+  #lasBtn { position: absolute; left: 300px; background: url(../img/main/left.svg) no-repeat center/ cover; }
+  #main2Wrap > #main2 > h2 { font-weight:bolder; letter-spacing: -0.5vw; margin-bottom: 20px; font-size: 6.5vw; line-height: 100px; height: 115px; text-align: center; }
+  #main2Wrap > #main2 > #section2 > #sectionList > div { height: 10vw; font-size : 4vw; width: 100%;  line-height: 3.5vw; text-align: center; letter-spacing: -2px; font-weight: bold; color:#000; }
+ 
+
+  /* main3 */
+
+  #main3Wrap { width: 100%; height: 190vh;}
+
+  #main3Wrap > #main3 { margin: 0 auto; padding:0 37px; max-width: 767px;  }
+  #main3Wrap > #main3 > h3 { margin: 0 auto 20vw; letter-spacing: -0.5vw; width:100%; height: 10vw; font-weight: bolder; font-size: 5vw; line-height: 9vw; word-wrap: normal; }
+  #main3Wrap > #main3 > h3 > br { display: none; }  
+
+  #main3Wrap > #main3 > #mainList {  width: 100%;}
+  #main3Wrap > #main3 > #mainList > li { position: relative; margin: 0 0 10vw 20vw; width: 80% }
+  #main3Wrap > #main3 > #mainList > .mainList1:before {content:""; width: 11vw; height: 12vw ; position:absolute; top: -1vw; left: -17.5vw; background: url(../img/main/mcon03_ico03.png)no-repeat center/cover ;}
+  #main3Wrap > #main3 > #mainList > .mainList2:before {content:""; width: 11.5vw; height: 10vw; ; position:absolute; top: -1vw; left: -17.5vw; background: url(../img/main/mcon03_ico01.png)no-repeat center/cover ;}
+  #main3Wrap > #main3 > #mainList > .mainList3:before {content:""; width: 11vw; height: 10.5vw; ; position:absolute; top: -1vw; left: -17.5vw; background: url(../img/main/mcon03_ico02.png)no-repeat center/cover ;}
+  #main3Wrap > #main3 > #mainList > li > h3 { font-size: 4.2vw; font-weight: bolder; margin-bottom: 15px; letter-spacing: -0.5vw; }
+  #main3Wrap > #main3 > #mainList > li > p { font-size: 4vw; line-height: 8vw; letter-spacing: -0.3vw; }
+  #main3Wrap > #main3 > #mainList > li > p > br { display:none; }
+  #main3Wrap > #main3 > #mainList > li > a { letter-spacing: -1.2px; margin-top: 17px; border-radius: 45px; color: gray; padding: 0 25px; display:block; width: 65vw; height: 10vw; font-size: 4vw;  line-height: 10vw; border: 1px solid gray; }
+  #main3Wrap > #main3 > #mainList > li > a:hover{ border:1px solid #000; color:#000; }
+  #main3Wrap > #main3 > #mainList > li > a:nth-child(4) { margin-top: 9px; }
+
+  #main3Wrap > #main3 > #mainList > li > .mainbtn { background: url(../img/main/mcon03_arrow.png)no-repeat right 4vw center; background-size: 2vw 3.5vw;}
+  
+}
+
